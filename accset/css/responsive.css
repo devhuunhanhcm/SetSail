@@ -1,0 +1,150 @@
+/* tablet and mobile */
+@media (max-width: 1023px){
+    .container-cart__shoping{
+        display: none;
+    }
+    .header__nav-list{
+        display: none;
+    }
+    .container-cart__shoping:last-child{
+        display: flex;
+    }
+    .header-wrap{
+        display: none;
+    }
+    .slider__content-title{
+        font-size: 4rem;
+        line-height: 1.6;
+    }
+    .slider__content-heading {
+        font-size: 3rem;
+        margin-bottom: 10px;
+    }
+    .slider__content-desc{
+        font-size: 1.6rem;
+        line-height: 1.4;
+    }
+    .search__input{
+        max-width: 150px;
+    }
+    .search__find{
+        white-space: nowrap;
+        padding: 0 10px;
+    }
+    .search__calendar,
+    .search__trarvel-type{
+        display: flex;
+        align-items: center;
+    }
+    .parallax-content-heading{
+        font-size: 6rem;
+    }
+    .parallax-content-desc{
+        font-size: 1.5rem;
+    }
+    
+}
+/* tablet  */
+@media (min-width: 740px) and (max-width: 1023px){
+    .slider__search{
+        width: 90%;
+    }
+    .contact-item{
+        margin-bottom: 20px;
+    }
+    .trip-sale__item{
+        margin-bottom: 20px;
+    }
+}
+/* mobile */
+@media (max-width:739px){
+    .slider__search{
+        width: 100%;
+    }
+    .slider-next-btn{
+        right: -5%;
+    }
+    .slider-pre-btn{
+        left: 5%;
+    }
+    .slider-next-btn,
+    .slider-pre-btn{
+        font-size: 1.4rem;
+        padding: 10px;
+        -webkit-tap-highlight-color: transparent;
+    }
+    .slider__content-desc{
+        display: none;  
+    }
+    .slider__content-title{
+        font-size: 2.8rem;
+        line-height: 1;
+    }
+    .slider__content-heading{
+        font-size: 2rem;
+    }
+    .slider__search{
+        display: none;
+    }
+    .trip-heading{
+        font-size: 4.2rem;
+    }
+    .parallax-content-heading {
+        font-size: 4rem;
+        padding:0;
+        line-height: 1.2;
+    }
+    .parallax-content-title {
+        font-size: 3rem;
+        margin-top: 0;
+    }
+    .parallax-content-desc {
+        font-size: 1.2rem;
+    }
+    .parallax-video-img{
+        object-fit: contain;
+    }
+    .parallax-video{
+        width: 100%;
+    }
+    .trip-title{
+        font-size: 4rem;
+    }
+    .footer__subsr-btn{
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    .trip-sale__item,
+    .destination-item{
+        margin-bottom: 20px;
+    }
+    .blog-hedeader {
+    padding: 50px 30px 50px;
+    }
+    .blog-desc,
+    .blog-content__desc{
+        width: 100%;
+    }
+    .blog-item__content {
+        padding: 0 10px;
+    }
+    .blog-content__date{
+        padding-bottom: 10px;
+    }
+    .trip-desc{
+        width: 100%;
+        padding: 0 10px;
+    }
+    .review-desc{
+        width: 90%;
+    }
+    .blog-img{
+        border-radius: 20px;
+    }
+    .destination-wrap{
+        padding: 100px 0;
+    }
+    .footer__title{
+        padding-top: 20px;
+    }
+}

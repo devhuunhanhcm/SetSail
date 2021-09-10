@@ -1,0 +1,64 @@
+:root{
+    --text-color-black: #212121;
+    --text-color: #505050;
+    --theme-color: #3fd0d4;
+    --white-color: #fff;
+    --border-color: #f1f1f1;
+    --background-gray: #f8f8f8;
+
+    --header-heaight: 46px;
+    --header-nav-height: 80px;
+}
+*{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+html{
+    font-size: 62.5%; 
+    line-height: 1.6rem;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.isRelative{
+    position: relative;
+}
+.btn{
+    min-width: 80px;
+    text-decoration: none;
+    display: inline-block;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.p-100{
+    padding: 100px 0;
+}
+@keyframes ZoomIn{
+    from{
+        transform: scale(1);
+    }to{
+        transform: scale(1.2);
+    }
+}
+@keyframes fadeUp{
+    from{
+        opacity: 0;
+        transform: translateY(80px)
+    }to{
+        opacity: 1;
+        transform: translateY(0)
+    }
+}
+@keyframes fadeDown{
+    from{
+        opacity: 0;
+        transform: scaleY(0)
+    }to{
+        opacity: 1;
+        transform: scaleY(1)
+    }
+}
